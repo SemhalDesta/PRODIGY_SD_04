@@ -1,1 +1,2 @@
 # PRODIGY_SD_04
+This is a program that solves a sudoku board. According to the rules of sudoku, it sees if a number fits the postion by checking if it is found in the row, in the column and in the local 3 by 3 square. However, in sudoku, these conditions are not enough to successfully solve it. Therefore, the program uses an algorithm called recursive backtracking to check if the path it took to solve one row would lead to solution or not.  
